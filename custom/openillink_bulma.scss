@@ -1,0 +1,53 @@
+/*!
+   This file is part of OpenILLink software.
+   Copyright (C) 2018 CHUV.
+   Original author(s): Jerome Zbinden <jerome.zbinden@chuv.ch>
+   Other contributors are listed in the AUTHORS file at the top-level directory 
+   of the OpenILLink software distribution.
+   
+   OpenILLink is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+   
+   OpenILLink is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with OpenILLink.  If not, see <http://www.gnu.org/licenses/>.
+   
+   Bulma-based OpenILLink style.
+*/
+@import "../sass/utilities/initial-variables";
+@import "../sass/utilities/functions";
+
+$primary: #42afe3;
+$info: $turquoise;
+
+$family-sans-serif: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+$message-body-border-color: #d3d6db;
+$message-header-body-border-width: 0px 1px 1px 1px;
+$message-body-border-width: 1px;
+$message-header-background-color: #69707a;
+$message-header-weight: $weight-normal;
+$message-header-padding: 0.5em 1em;
+
+$body-size: 14px;
+$radius: 3px;
+$input-border-color: #d3d6db;
+
+$link-focus-border: $primary;
+$link: #329acc;
+
+$pagination-focus-border-color: $primary;
+$pagination-current-background-color: $primary;
+$pagination-current-border-color: $primary;
+
+$table-row-hover-background-color: $grey-lighter;
+$table-striped-row-even-hover-background-color: $grey-light;
+
+
+@import "../bulma";
