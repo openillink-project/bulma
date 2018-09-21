@@ -49,5 +49,5 @@ $pagination-current-border-color: $primary;
 $table-row-hover-background-color: $grey-lighter;
 $table-striped-row-even-hover-background-color: $grey-light;
 
-
+@import "openillink_base"; // necessary to style custom OpenIllink elements
 @import "../bulma";
