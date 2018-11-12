@@ -49,5 +49,11 @@ $pagination-current-border-color: $primary;
 $table-row-hover-background-color: $grey-lighter;
 $table-striped-row-even-hover-background-color: $grey-light;
 
+@media print {
+    /* Do not display links menu when printing order details page */
+    #illinks {display:none;}
+    footer.footer {display:none;}
+}
+
 @import "openillink_base"; // necessary to style custom OpenIllink elements
 @import "../bulma";
