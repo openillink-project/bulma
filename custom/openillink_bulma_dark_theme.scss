@@ -59,5 +59,12 @@ $input-background-color: $grey-lighter;
     footer.footer {display:none;}
 }
 
+@import "openillink_base"; // necessary to style custom OpenIllink elements
 @import "../bulma";
 @import "openillink_bulma_dark_theme_overrides";
+
+/* Overriding some Select2 styles */
+.select2-container--default .select2-selection--single {
+  border: 1px solid $border;
+  box-shadow: $input-shadow
+}

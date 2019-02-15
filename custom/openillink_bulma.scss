@@ -57,3 +57,9 @@ $table-striped-row-even-hover-background-color: $grey-light;
 
 @import "openillink_base"; // necessary to style custom OpenIllink elements
 @import "../bulma";
+
+/* Overriding some Select2 styles */
+.select2-container--default .select2-selection--single {
+  border: 1px solid $border;
+  box-shadow: $input-shadow
+}
